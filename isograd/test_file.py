@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+# Use like this : ./test_file.py meilleur_dev_france_sept_2017_session_1/les_bureaux_salesforce/main.py
+# input* and output* must be in the same folder
+
 import sys
 import os
 from subprocess import check_output, CalledProcessError
