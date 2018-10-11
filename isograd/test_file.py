@@ -26,8 +26,13 @@ for i in range(len(inputs)):
         sys.exit(0)
     
     if out == expected_out:
-        print(Fore.GREEN + '[OK] ', end='')
+        print(Fore.GREEN + '[OK] ' + inputs[i] + ' -> ' + outputs[i])
     else:
-        print(Fore.RED + '[XX] ', end='')
+        print(Fore.RED + '[XX] ' + inputs[i] + ' -> ' + outputs[i])
+        print('Your code returns:')
+        print(out)
+        print('\nExpected output:')
+        print(expected_out)
+        print('\n')
 
-    print(inputs[i] + ' -> ' + outputs[i] + Style.RESET_ALL)
+    print(Style.RESET_ALL, end='')
