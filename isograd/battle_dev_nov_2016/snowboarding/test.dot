@@ -1,0 +1,23 @@
+graph G{
+0 [label="0 [world]"];
+1 [label="1 [Circle(x=11, y=12, r=8, h=-2)]"];
+2 [label="2 [Circle(x=14, y=9, r=2, h=6)]"];
+3 [label="3 [Circle(x=14, y=9, r=1, h=2)]"];
+4 [label="4 [Circle(x=21, y=15, r=1, h=-8)]"];
+5 [label="5 [Circle(x=25, y=12, r=2, h=1)]"];
+6 [label="6 [Circle(x=22, y=9, r=1, h=-3)]"];
+7 [label="7 [Circle(x=21, y=7, r=1, h=7)]"];
+8 [label="8 [Circle(x=17, y=3, r=2, h=3)]"];
+9 [label="9 [Circle(x=16, y=3, r=1, h=6)]"];
+10 [label="10 [Circle(x=25, y=4, r=1, h=9)]"];
+0 -- 1 [label="2"];
+0 -- 4 [label="8"];
+0 -- 5 [label="1"];
+0 -- 6 [label="3"];
+0 -- 7 [label="7"];
+0 -- 8 [label="3"];
+0 -- 9 [label="6"];
+0 -- 10 [label="9"];
+1 -- 2 [label="8"];
+2 -- 3 [label="4"];
+}
