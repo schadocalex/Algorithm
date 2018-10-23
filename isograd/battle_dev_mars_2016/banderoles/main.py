@@ -9,7 +9,6 @@ pol = sorted([(h, i) for i, h in enumerate(pylones)])
 
 before = list(range(-1,N-1))
 after = list(range(1,N+1))
-i = 0
 banderole = 0
 for i in range(N-1):
     h1, i1 = pol[i]
